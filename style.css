@@ -1,0 +1,50 @@
+:root {
+  --color-bg: #faf6f1;
+  --color-surface: #ffffff;
+  --color-text: #3d3733;
+  --color-text-muted: #7a716a;
+  --color-neutral-dark: #4a433d;
+  --color-border: #e7ded3;
+  --color-accent: #d97a4d;
+  --color-accent-hover: #c2653a;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.navbar,
+header.text-bg-dark,
+footer.text-bg-dark {
+  background-color: var(--color-neutral-dark) !important;
+}
+
+.card {
+  background-color: var(--color-surface);
+  border-color: var(--color-border);
+}
+
+.card-text {
+  color: var(--color-text-muted);
+}
+
+.btn-primary,
+.btn-outline-primary:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+}
+
+.btn-outline-primary {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.nav-link:hover {
+  color: var(--color-accent) !important;
+}
